@@ -1,11 +1,10 @@
-* {
-    color: white;
-}
+
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .darkblue {
@@ -51,6 +50,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #1ABC9C;
+    color: white;
 }
 
 .img-profile {
@@ -72,4 +72,18 @@ header {
     display: inline;
     width: 25px;
     margin: 0 10px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
